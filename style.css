@@ -20,7 +20,7 @@ body {
     margin: 0;
     padding: 0;
     display: flex;
-    justify-content: left;
+    justify-content: center;
 }
 
 .instagram-wrapper {
@@ -31,14 +31,15 @@ body {
     height: 100vh;
 }
 
-.instagram-phone {
+.instagram-photo {
     display: flex;
+    float: left;
     align-items: center;
     justify-content: center;
     width: 50%;
 }
 
-.instagram-phone img {
+.instagram-photo img {
     width: 50rem;
 }
 
@@ -86,6 +87,7 @@ body {
     color: white;
     padding: 8px;
     border-radius: 4px;
+    text-decoration: none;
 }
 
 .intagram-logout {
